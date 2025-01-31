@@ -1,0 +1,6 @@
+﻿services:
+  interviewme:
+    image: interviewme
+    build:
+      context: .
+      dockerfile: InterviewMe/Dockerfile

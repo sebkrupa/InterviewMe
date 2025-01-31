@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using InterviewMe.EF;
 
-Console.WriteLine("Hello, World!");
+var interview = new Linqq();
+
+interview.TaskFive();
